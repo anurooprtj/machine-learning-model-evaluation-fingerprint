@@ -4,7 +4,7 @@ Performance comparion of various machine learning models on background and foreg
 ### Dataset creation
 
 1. 50 fingerprint images were used to create the dataset. 
-2. From each image 5 pathches for foreground and background were selected having length 21X21.
+2. From each image 5 patches for foreground and background were selected having length 21X21.
 3. GLCM properties were applied on each fingerprint patch:
 	- contrast
     - dissimilarity
@@ -12,9 +12,9 @@ Performance comparion of various machine learning models on background and foreg
     - energy
     - correlation
     - ASM
-4. Class label 1 for foreground and class label 0 for background assigned. 
-5. fingerprint.csv file created.
-6. fingerprint_pickle file is used to read created fingerprint.csv file, Create X, y, standardize (Standard scalar) them and diviee into training and testing data.  
+4. Class label 1 for foreground and class label 0 for background were assigned. 
+5. Final database file 'fingerprint.csv' having shape (500, 7) was created.
+6. 'fingerprint_pickle' file was used to read created database file, created X and y, standardized (Standard scalar) them and divided into training and testing data.  
 
 ### Machine learning models used:
 1. Logistic regression
