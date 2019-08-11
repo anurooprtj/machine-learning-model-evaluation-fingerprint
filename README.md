@@ -14,7 +14,8 @@ Performance comparion of various machine learning models on background and foreg
     - ASM
 4. Class label 1 for foreground and class label 0 for background were assigned. 
 5. Final database file 'fingerprint.csv' having shape (500, 7) was created.
-6. 'fingerprint_pickle' file was used to read created database file, created X and y, standardized (Standard scalar) them and divided into training and testing data.  
+6. 'fingerprint_pickle' file was used to read created database file, created X and y, divided them into training and testing data and standardized them using Standard Scalar.  
+
 
 ### Machine learning models used:
 1. Logistic regression
